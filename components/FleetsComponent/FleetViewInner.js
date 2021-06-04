@@ -13,6 +13,7 @@ const FleetViewInner = ({
   goToNextFleet,
   goToPrevFleet,
   fleetIndex,
+  autoFleetUpdate,
 }) => {
   const {width, height} = useWindowDimensions();
   console.log(`user`, user.fleets.items.length);
@@ -20,6 +21,8 @@ const FleetViewInner = ({
   const fleetCount = user.fleets.items.length;
   const customWidth = (width * 0.9) / user.fleets.items.length;
   const singleWidth = width * 0.95;
+
+  // setTimeout(() => autoFleetUpdate(), 3000);
   return (
     <View
       style={{
@@ -87,7 +90,7 @@ const FleetViewInner = ({
         {user.fleets.items.map((i, index) => (
           <View
             style={{
-              height: 5,
+              height: 3,
               width: fleetCount > 1 ? customWidth : singleWidth,
               marginBottom: 10,
               marginRight: fleetCount - 1 === index ? 0 : 5,

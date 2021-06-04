@@ -73,6 +73,37 @@ const FleetsView = () => {
   return (
     <FleetViewInner
       fleetIndex={fleetIndex}
+      // autoFleetUpdate={() => {
+      //   let userIndex = -1;
+
+      //   for (let i = 0; i < users?.length; i++) {
+      //     if (users[i].id === user.id) {
+      //       userIndex = i;
+      //       break;
+      //     }
+      //   }
+
+      //   if (fleetIndex >= user?.fleets?.items.length) {
+      //     if (users.length > userIndex + 1) {
+      //       // go to the next user
+      //       setUser(users[userIndex + 1]);
+      //       setFleetIndex(0);
+      //     } else {
+      //       setFleetIndex(user?.fleets?.items.length);
+      //     }
+      //   } else if (fleetIndex < 0) {
+      //     // go to the prev user
+      //     if (userIndex > 0) {
+      //       setUser(users[userIndex - 1]);
+      //       setFleetIndex(users[userIndex - 1].fleets.items.length - 1);
+      //     } else {
+      //       setFleetIndex(0);
+      //     }
+      //   } else {
+      //     setFleetIndex(fleetIndex + 1);
+      //     // setFleet(user?.fleets?.items[fleetIndex + 1]);
+      //   }
+      // }}
       user={user}
       fleet={fleet}
       goToNextFleet={goToNextFleet}
