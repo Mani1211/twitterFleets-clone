@@ -9,8 +9,11 @@ const FleetsView = () => {
   const {userId} = route.params;
 
   const [users, setUsers] = useState(FleetsData);
+
   const [user, setUser] = useState(null);
+
   const [fleetIndex, setFleetIndex] = useState(-1);
+
   const [fleet, setFleet] = useState(null);
 
   useEffect(() => {
@@ -27,6 +30,7 @@ const FleetsView = () => {
     }
 
     let userIndex = -1;
+
     for (let i = 0; i < users?.length; i++) {
       if (users[i].id === user.id) {
         userIndex = i;
@@ -68,6 +72,7 @@ const FleetsView = () => {
   }
   return (
     <FleetViewInner
+      fleetIndex={fleetIndex}
       user={user}
       fleet={fleet}
       goToNextFleet={goToNextFleet}

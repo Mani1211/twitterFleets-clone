@@ -15,6 +15,29 @@ export default [
             'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/vertical-images/1.jpg',
         },
         {
+          id: '3',
+          type: 'IMAGE',
+          image:
+            'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/vertical-images/2.jpg\n',
+        },
+        {
+          id: '1',
+          type: 'TEXT',
+          text: ' Hi, there!Hi, there!Hi, there!Hi, there!Hi, there!Hi, there!Hi, there!Hi, there!Hi, there!',
+        },
+        {
+          id: '4',
+          type: 'IMAGE',
+          image:
+            'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/vertical-images/4.jpeg',
+        },
+        {
+          id: '3',
+          type: 'IMAGE',
+          image:
+            'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/vertical-images/2.jpg\n',
+        },
+        {
           id: '1',
           type: 'TEXT',
           text: ' Hi, there!Hi, there!Hi, there!Hi, there!Hi, there!Hi, there!Hi, there!Hi, there!Hi, there!',
@@ -36,6 +59,29 @@ export default [
           image:
             'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/vertical-images/2.jpg\n',
         },
+        {
+          id: '4',
+          type: 'IMAGE',
+          image:
+            'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/vertical-images/4.jpeg',
+        },
+        {
+          id: '5',
+          type: 'TEXT',
+          text: 'Of Course I Still Love You',
+        },
+        {
+          id: '0',
+          type: 'IMAGE',
+          image:
+            'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/vertical-images/3.jpg',
+        },
+        {
+          id: '0',
+          type: 'IMAGE',
+          image:
+            'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/vertical-images/3.jpg',
+        },
       ],
     },
   },
@@ -52,6 +98,23 @@ export default [
           type: 'TEXT',
           text: 'I am from Kaliningrad',
         },
+        {
+          id: '4',
+          type: 'IMAGE',
+          image:
+            'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/vertical-images/4.jpeg',
+        },
+        {
+          id: '5',
+          type: 'TEXT',
+          text: 'Of Course I Still Love You',
+        },
+        {
+          id: '0',
+          type: 'IMAGE',
+          image:
+            'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/vertical-images/3.jpg',
+        },
       ],
     },
   },
@@ -63,6 +126,17 @@ export default [
     createdAt: '2020-09-04T12:05:39.955Z',
     fleets: {
       items: [
+        {
+          id: '4',
+          type: 'IMAGE',
+          image:
+            'https://notjustdev-dummy.s3.us-east-2.amazonaws.com/vertical-images/4.jpeg',
+        },
+        {
+          id: '5',
+          type: 'TEXT',
+          text: 'Of Course I Still Love You',
+        },
         {
           id: '0',
           type: 'IMAGE',

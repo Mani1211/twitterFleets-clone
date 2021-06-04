@@ -1,0 +1,14 @@
+com/twiterfleets/BuildConfig.java
+ com.twiterfleets.BuildConfig
+com/twiterfleets/MainActivity.java
+ com.twiterfleets.MainActivity
+com/twiterfleets/MainApplication.java
+ com.twiterfleets.MainApplication
+ com.twiterfleets.MainApplication$1
+com/twiterfleets/ReactNativeFlipper.java
+ com.twiterfleets.ReactNativeFlipper
+ com.twiterfleets.ReactNativeFlipper$1
+ com.twiterfleets.ReactNativeFlipper$2
+ com.twiterfleets.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
